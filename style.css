@@ -1,32 +1,58 @@
 body{
-    background-color: rgb(134, 202, 180);
+    background-color: rgb(18, 87, 87);
   }
   header{
-    background-color: black;
+    background-color: rgb(99, 54, 54);
   }
   h1{
     color: white;
     text-align: center;
+    background-color: rgb(46, 211, 223);
   }
-  nav{
+h2{
+  color: white;
+    text-align: left;
+  background-color: gray;
+  justify-content: center;
+}
+nav{
+  color: aqua;
+    text-align: center;
+    text-shadow: 2cap;
+  footer {
     text-align: center;
   }
+
+  }
+  #myWeb{
+    color: antiquewhite;
+  }
   nav a{
-    color: white;
-    text-decoration: none;
+    color: rgb(20, 188, 230);
     padding: 8px;
+    text-decoration: aqua;
+    text-align: center;
+    background-image: -moz-element();
   }
   .image {
-    width: 200px;
-    border-radius: 50px;
-    float: left;
-    margin-right: 10px;
+    position: relative;
+    width: 100px;
+    height: 100px; ;
+    border-radius: 40px;
+    float: right;
+    margin-right: 50px;
+     top: 0%;
+     left: 0%;
+    
+  
   }p .username{
+    color: #1e1aec;
    font-size: medium;
+   text-decoration: blueviolet;
  }
  @media (max-width:500px){
   body{
-    background-color: chocolate;
+    background-color: rgb(63, 16, 10);
   }
   h1{
     color: brown;
@@ -35,10 +61,13 @@ body{
     display: flex;
   }
 }
-  @media(min-width:501px)and(max-width:720){
+  @media(min-width:501px) and (max-width:720px)  {
     body{
-      background-color: blueviolet;
+      background-color: violet;
     }
 
   }
+    
+  
+
   

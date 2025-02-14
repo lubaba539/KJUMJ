@@ -6,39 +6,50 @@
     <link rel="stylesheet" href="./style.css">
     </head>
 <body>
+    <div class="container">
+        <img src="image.jpg">
+    </div>
     <head>
         <h1>KJUMJ Ar-REYAN MESJID</h1>
         <img class="image" src="images/photo_2025-02-08_20-51-32.jpg" alt="">
-        <nav></nav>
+        <nav>
         <a href="#home ">home</a>
         <a href="#about">About</a>
         <a href="#contact">Contact us</a>
         </nav>
-        <p>  KJUMJ is one of great jemea that found in ethiopia university jemea .
+        <button id="toggleButton">Show content</button>
+        <div id="content" class="hidden">
+        <p id="text">  KJUMJ is one of great jemea that found in ethiopia university jemea .
             it is a wonderful mosque built by studebts of technology campus in jimma.
+            even now, it has been orgganized in various structures and
+           is making a great contributions to the students and the society.
         </p>
-        <p> even now, it has been orgganized in various structures and
-                is making a great contributions to the students and the society.
-        </p>
+        <button id="changeButton">change text</button>
+        </div>
     </head>
     <NAv>
-        <a href="#Acadamic ">Acadamic</a>
+        <a href="#Acadamic">Acadamic</a>
         <a href="#Bereka">Bereka</a>
         <a href="#Da`wah">Da`wah</a>
         <a href="#Darul Hassen">Darul Hassen</a>
         <a href="#EBA">EBA</a>
-        <a href="#irshad">Irshad</a>
-        <a href="#Health affair">Health Affair</a>
+        <a href="#Irshad">Irshad</a>
+        <a href="#Health Affair">Health Affair</a>
         <a href="#Kafila">Kafila</a>
         <a href="#Ziyara">Ziyara</a>
 
         
     </NAv>
     <main>
+        
         <section id="home">
-            <h2>about</h2>
+            <h2>home</h2>
             <p>This is simple webpage for KJUMJ Jemea</p>
             </section>
+            <section id="about">
+                <h2>about</h2>
+                <p>KJUMJ's STRUCTURES AND THEIR RESPONSIBILITIES.</p>
+                </section>
          <section id="contact">
             <h2>contact</h2>
                 <ul>
@@ -46,7 +57,7 @@
                     <li>adress : Jimma</li>
                 </ul>
             </section>
-         <section id="Acadamic ">
+         <section id="Acadamic">
             <h2>Acadamic</h2>
                 <ul>
                     <li>C++ tutorial</li>
@@ -67,7 +78,7 @@
             <h2>Da`wah</h2>
                 <ul>
                     <li>make islamic dawa for students and communitu</li>
-                    <li>tila after jumea megrib solah</li>
+                    <li>tilWa after jumea megrib solah</li>
                 </ul>
              </section>
        <section id="Darul Hassen">
@@ -118,9 +129,12 @@
                     <li>field ziyara</li>
                     <li>collect students information</li>
                    </ul>
-
             </section>
     </main>
+    <footer>
+        <p>&copy All are reserved</p>
+      </footer>
+      <script src="dom.js"></script>
 </body>
 </html><html>
 
