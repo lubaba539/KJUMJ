@@ -1,0 +1,12 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(134, 202, 180);
+  }
+  header{
+    background-color: black;
+  }
+  h1{
+    color: white;
+    text-align: center;
+  }

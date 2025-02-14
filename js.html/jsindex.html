@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>website developer</title>
+   </head>
+   <body>
+       <button id="toggleButton">Toggle Content</button>
+       <div id="content" style="display:none;">
+           <p>website developer include both front_end and back_end.</p>
+       </div>
+
+       <script>
+           const button = document.getElementById('toggleButton');
+           const content = document.getElementById('content');
+
+           button.addEventListener('click', () => {
+               if (content.style.display === "none") {
+                   content.style.display = "block";
+               } else {
+                   content.style.display = "none";
+               }
+           });
+       </script>
+   </body>
+   </html>
